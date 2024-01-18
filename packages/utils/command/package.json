@@ -1,0 +1,19 @@
+{
+  "name": "@momentum-design/command-utils",
+  "packageManager": "yarn@3.2.4",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0",
+    "yarn": ">=3.0.0"
+  },
+  "type": "commonjs",
+  "main": "./dist/module/index.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}

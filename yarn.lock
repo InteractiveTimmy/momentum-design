@@ -1794,6 +1794,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@momentum-design/command-utils@workspace:packages/utils/command":
+  version: 0.0.0-use.local
+  resolution: "@momentum-design/command-utils@workspace:packages/utils/command"
+  dependencies:
+    commander: ^11.1.0
+  languageName: unknown
+  linkType: soft
+
 "@momentum-design/common@workspace:^, @momentum-design/common@workspace:packages/@momentum-design/common":
   version: 0.0.0-use.local
   resolution: "@momentum-design/common@workspace:packages/@momentum-design/common"
@@ -1889,6 +1897,14 @@ __metadata:
   dependencies:
     "@momentum-design/builder": "workspace:^"
     rimraf: ^3.0.2
+  languageName: unknown
+  linkType: soft
+
+"@momentum-design/package-tools@workspace:packages/tools/package":
+  version: 0.0.0-use.local
+  resolution: "@momentum-design/package-tools@workspace:packages/tools/package"
+  bin:
+    md-package-tools: ./dist/cli/index.js
   languageName: unknown
   linkType: soft
 
@@ -3978,6 +3994,13 @@ __metadata:
   version: 2.0.3
   resolution: "comma-separated-tokens@npm:2.0.3"
   checksum: e3bf9e0332a5c45f49b90e79bcdb4a7a85f28d6a6f0876a94f1bb9b2bfbdbbb9292aac50e1e742d8c0db1e62a0229a106f57917e2d067fca951d81737651700d
+  languageName: node
+  linkType: hard
+
+"commander@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "commander@npm:11.1.0"
+  checksum: fd1a8557c6b5b622c89ecdfde703242ab7db3b628ea5d1755784c79b8e7cb0d74d65b4a262289b533359cd58e1bfc0bf50245dfbcd2954682a6f367c828b79ef
   languageName: node
   linkType: hard
 
